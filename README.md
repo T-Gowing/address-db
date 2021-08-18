@@ -1,26 +1,26 @@
-README for address database API design exercise - Lap 2 Week 4
+# README for address database API design exercise - Lap 2 Week 4
+
+We chose to use an SQL database as the data required was very structured and the same datapoints were required across all entries. 
 
 URL of API : https://neighbourhood.watch.org/
-*API REQUEST HANDLERS*
+
+---
+## API REQUEST HANDLERS
 
 
 
-*ROUTES*
-POST - add new data to the table
-GET - query table data
-PUT - update existing data
-DELETE - remove table entries
+---
+## ROUTES
+---
+POST: add new data to the table
 
-Path	HTTP Verb	Action
-/	GET	index of tables
-/cats/new	GET	new
-/cats	POST	create
-/cats/:id	GET	show
-/cats/:id/edit	GET	edit
-/cats/:id	PATCH/PUT	update
-/cats/:id	DELETE	destroy
+GET: query table data
 
-###ROUTES 
+PUT: update existing data
+
+DELETE: remove table entries
+
+---
 
 |       Path   |     HTTP Verb     |       Action        | 
 |--------------|-------------------|-------------------- |
